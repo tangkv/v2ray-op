@@ -1,7 +1,7 @@
 cd /v2ray
-if [ "$CERT_PEM" != "$KEY_PEM" ]; then
-  echo -e "$CERT_PEM" > cert.pem
-  echo -e "$KEY_PEM"  > key.pem
+if [ "$CER_PEM" != "$KEY_PEM" ]; then
+  echo -e "$CER_PEM" > cer.pem
+  echo -e "$KEY_PEM" > key.pem
 fi
 
 wget -O v2ray.zip http://github.com/v2ray/v2ray-core/releases/download/v$VER/v2ray-linux-64.zip
