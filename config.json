@@ -14,7 +14,17 @@
       ]
     },
     "streamSettings": {
-      "network": "ws"
+      "network": "http",
+      "security": "tls",
+      "tlsSettings": {
+        "certificates": [
+            {
+              "certificateFile": "/etc/v2ray/pem.crt", 
+              "keyFile": "/etc/v2ray/pem.key"
+            }
+          ]
+      },
+      "httpSettings": {}
     }
   },
   "outbound": {
