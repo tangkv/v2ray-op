@@ -19,10 +19,10 @@
       "tlsSettings": {
         "certificates": [
             {
-              "certificateFile": "/etc/v2ray/pem.crt", 
-              "keyFile": "/etc/v2ray/pem.key"
+              "certificateFile": "/v2ray/cer.pem", 
+              "keyFile": "/v2ray/key.pem"
             }
-          ]
+        ]
       },
       "httpSettings": {}
     }
